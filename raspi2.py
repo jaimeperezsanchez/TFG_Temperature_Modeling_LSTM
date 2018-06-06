@@ -26,7 +26,7 @@ def to_1400MHz():
 	os.system('sudo cpufreq-set -r -f 1.4GHz')
 
 
-while(True)
+while(True):
 	#Raspi      R2   R4   R6
 	#work 0:    X    O    X
 	#work 1:    O    O    X
